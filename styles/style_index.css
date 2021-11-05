@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/*--------------------------------------------------------------------*/
+
+html {
+    font-size: 10px;
+}
+
+header {
+    width: 100%;
+    height: 15vh;
+    background-color: blueviolet;
+    overflow: hidden;
+}
+
+header h1 a {
+    color: white;
+    font-size: 5rem;
+    max-width: 10rem;
+}
+
+
+/*--------------------------------------------------------------------*/
+
+nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav_bar {
+    display: flex;
+}
+
+.nav_bar li a {
+    color: white;
+    font-size: 2.5rem;
+    margin: 0px 10px;
+}
+
+.nav_bar li:hover a {
+    color: rgb(187, 168, 133);
+}
+
+.nav_cadastro {
+    display: flex;
+    margin-right: 10px;
+}
+
+.nav_cadastro li a {
+    color: white;
+    font-size: 2.5rem;
+    margin: 0px 10px;
+}
+
+.nav_cadastro li:hover a {
+    color: rgb(187, 168, 133);
+}
+
+
+/*--------------------------------------------------------------------*/
+
+.sessao_carrossel {
+    width: 100%;
+    height: 85vh;
+    background: #12c2e9;
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrossel {
+    width: 800px;
+    height: 80vh;
+    overflow: hidden;
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: relative;
+}
+
+.img img {
+    width: 800px;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.8s;
+}
+
+.img:hover img {
+    opacity: 0.4;
+}
+
+.img:hover .info {
+    opacity: 1;
+}
+
+.info {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.8s;
+    opacity: 0;
+}
+
+.info h1 {
+    font-size: 4rem;
+    color: white;
+    text-align: start;
+    margin: 20px 10px;
+}
+
+.info p {
+    position: absolute;
+    font-size: 2rem;
+    color: white;
+    text-align: start;
+    margin: 20px 10px;
+    bottom: 0px;
+}
+
+
+/*--------------------------------------------------------------------------------------*/
+
+.sessao_news {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new {
+    width: 800px;
+    height: 300px;
+    background-color: blueviolet;
+    margin-top: 80px;
+    position: relative;
+    border: 2px solid blueviolet;
+}
+
+.new a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper_img {
+    width: 40%;
+    height: 100%;
+}
+
+.wrapper_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.info_text {
+    width: 60%;
+    height: 100%;
+}
+
+.info_text h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin: 10px;
+}
+
+.info_text p {
+    position: absolute;
+    color: white;
+    font-size: 1.5rem;
+    bottom: 0;
+    margin: 20px 10px;
+    text-align: justify;
+}
+
+
+/*--------------------------------------------------------------------------------------*/
+
+footer {
+    width: 100%;
+    height: 15rem;
+    background-color: rgb(62, 31, 63);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+footer p {
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+footer p a {
+    color: yellow;
+    font-size: 2rem;
+    margin: 1rem;
+}

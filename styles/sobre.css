@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+header {
+    width: 100%;
+    height: 15vh;
+    background-color: blueviolet;
+}
+
+header h1 a {
+    color: white;
+    font-size: 5rem;
+}
+
+nav {
+    width: 98%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav_bar {
+    display: flex;
+}
+
+.nav_bar li a {
+    color: white;
+    font-size: 2.5rem;
+    margin: 0px 10px;
+}
+
+.nav_bar li:hover a {
+    color: rgb(187, 168, 133);
+}
+
+.nav_cadastro {
+    display: flex;
+}
+
+.nav_cadastro li a {
+    color: white;
+    font-size: 2.5rem;
+    margin: 0px 10px;
+}
+
+.nav_cadastro li:hover a {
+    color: rgb(187, 168, 133);
+}
+
+.sobre {
+    width: 80%;
+    height: 60vh;
+    margin: 50px auto 0 auto;
+}
+
+.sobre h2 {
+    color: white;
+    color: rgb(125, 125, 125);
+    font-size: 5rem;
+    text-align: center;
+    padding-bottom: 40px;
+    border-bottom: 2px solid rgb(125, 125, 125);
+}
+
+.sobre p {
+    margin-top: 40px;
+    color: rgb(125, 125, 125);
+    font-size: 3rem;
+    text-align: justify;
+}
+
+footer {
+    width: 100%;
+    height: 15rem;
+    background-color: rgb(62, 31, 63);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+footer p a {
+    color: yellow;
+    font-size: 2rem;
+    margin: 1rem;
+}
