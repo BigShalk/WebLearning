@@ -1,0 +1,80 @@
+{
+    "cursos_desenvolvimento": [
+
+        {
+            "nome": "Java Script - 2022",
+            "img": "https://i.ytimg.com/vi/8i4ltPu5a5w/maxresdefault.jpg",
+            "descricao": "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web."
+        },
+
+        {
+            "nome": "Phyton - 2021",
+            "img": "https://marquesfernandes.com/wp-content/uploads/2020/08/kwi4bvgzths31.jpg",
+            "descricao": "Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991. "
+        },
+
+        {
+            "nome": "Java - 2021",
+            "img": "https://dev.java/assets/images/java-logo-vert-blk.png",
+            "descricao": "Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems. Em 2008 o Java foi adquirido pela empresa Oracle Corporation."
+        },
+
+        {
+            "nome": "CSharp - 2021",
+            "img": "https://autocom3.com.br/wp-content/uploads/2021/02/c.png",
+            "descricao": "C# é uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET. A sua sintaxe orientada a objetos foi baseada no C++ mas inclui muitas influências de outras linguagens de programação, como Object Pascal e, principalmente, Java. "
+        },
+
+        {
+            "nome": "PHP - 2021",
+            "img": "https://becode.com.br/wp-content/uploads/2017/09/php-post-1.png",
+            "descricao": "PHP é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor, capazes de gerar conteúdo dinâmico na World Wide Web."
+        },
+
+        {
+            "nome": "HTML 5 - 2021",
+            "img": "https://files.tecnoblog.net/wp-content/uploads/2014/10/html5.jpg",
+            "descricao": "HTML5 é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet, originalmente proposto por Opera Software. É a quinta versão da linguagem HTML."
+        },
+
+        {
+            "nome": "Css3 - 2021",
+            "img": "https://terminalroot.com.br/assets/img/css/css.jpg",
+            "descricao": "Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. O código CSS pode ser aplicado diretamente nas tags ou ficar contido dentro das tags <style>. Também é possível, em vez de colocar a formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos."
+        }
+    ],
+
+    "cursos_designer": [
+
+        {
+            "nome": "Photoshop - 2021",
+            "img": "https://newstecnologiche.altervista.org/wp-content/uploads/2021/01/photoshop-cover-700x335-1.png",
+            "descricao": "Adobe Photoshop é um software caracterizado como editor de imagens bidimensionais do tipo raster desenvolvido pela Adobe Systems. É considerado o líder no mercado dos editores de imagem profissionais, assim como o programa de facto para edição profissional de imagens digitais e trabalhos de pré-impressão. "
+        },
+
+        {
+            "nome": "Corel Drawn - 2021",
+            "img": "https://www.coreldraw.com/static/cdgs/images/social/cdgs2020-og.jpg",
+            "descricao": "O CorelDRAW é um programa de desenho vetorial bidimensional para design gráfico desenvolvido pela Corel Corporation, Canadá.  "
+        },
+
+        {
+            "nome": "Ilustrator - 2021",
+            "img": "https://mysoftwarefree.com/wp-content/uploads/2019/05/Adobe-Illustrator-CS6-16-Free-Download.png",
+            "descricao": "Adobe Illustrator é um editor de imagens vetoriais desenvolvido e comercializado pela Adobe Systems. Foi criado inicialmente para o Apple Macintosh em 1985, e, foi comercializado para todo o público em 1995 como complemento comercial de software de fontes da Adobe e da tecnologia PostScript desenvolvida pela empresa."
+        },
+
+        {
+            "nome": "Zbrush - 2021",
+            "img": "https://i.ytimg.com/vi/Xbi_iqk0FZI/maxresdefault.jpg",
+            "descricao": "O ZBrush um programa de computador comercial de modelagem digital tridimensional e texturarização em alta resolução, criado pela empresa Pixologic, que usa tecnologia pixol que combina 2.5D e 3D, usado em produção de filmes e criação de personagens de jogos em 3D. Wikipédia"
+        },
+
+        {
+            "nome": "Sketch - 2021",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/850px-Sketch_Logo.svg.png",
+            "descricao": "Traduzido do inglês-Sketch é um editor de gráficos vetoriais para macOS desenvolvido pela empresa holandesa Sketch B.V. Foi lançado em 7 de setembro de 2010 e ganhou um Apple Design Award em 2012. Também possui um aplicativo da web que permite aos usuários usar o software em qualquer computador."
+        }
+    ]
+
+}
