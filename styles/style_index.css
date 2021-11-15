@@ -131,11 +131,9 @@ html {
 }
 
 .info_text p {
-    position: absolute;
     color: white;
     font-size: 2rem;
-    top: 20;
-    margin: 20px 10px;
+    margin: 10px 10px;
     text-align: justify;
 }
 
@@ -143,10 +141,6 @@ html {
 /*--------------------------------------------------------------------------------------*/
 
 @media(max-width:1000px) {
-    .sessao_carrossel {
-        width: 100%;
-        height: 85vh;
-    }
     .carrossel {
         width: 600px;
         height: 80vh;
@@ -165,17 +159,39 @@ html {
 }
 
 @media(max-width:700px) {
-    .sessao_carrossel {
-        margin-top: 30px;
-        width: 100%;
-        height: 60vh;
-    }
     .carrossel {
         width: 400px;
         height: 60vh;
     }
     .img img {
+        width: 400px;
+    }
+    .new {
+        width: 60%;
+        height: 300px;
+    }
+    .info_text p {
+        font-size: 2.5rem;
+    }
+    .new a {
+        display: flex;
+        flex-direction: column;
         width: 100%;
+        height: 40%;
+    }
+    .wrapper_img {
+        width: 100%;
+        height: 100%;
+    }
+    .info_text {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media(max-width:400px) {
+    .sessao_carrossel {
+        display: none;
     }
     .new {
         width: 80%;
