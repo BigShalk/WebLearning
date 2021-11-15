@@ -96,9 +96,6 @@ footer p a {
     .nav_barmn {
         display: none;
     }
-    .nav_cadastromn {
-        display: none;
-    }
     html {
         font-size: 5px;
     }
@@ -119,22 +116,11 @@ footer p a {
     .nav_barmn {
         display: flex;
     }
-    .nav_cadastromn {
-        display: flex;
-    }
     .nav_barmn li {
         display: flex;
         margin-right: 10px;
     }
-    .nav_cadastromn li {
-        display: flex;
-        margin-right: 10px;
-    }
     .nav_barmn a {
-        font-size: 3rem;
-        color: white;
-    }
-    .nav_cadastromn a {
         font-size: 3rem;
         color: white;
     }

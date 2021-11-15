@@ -23,13 +23,13 @@ html {
 }
 
 .cabecalho img {
-    width: 5%;
-    height: 10vh;
+    width: 10%;
+    height: 50%;
     margin-right: 2rem;
 }
 
 .cabecalho h2 {
-    font-size: 5rem;
+    font-size: 10rem;
 }
 
 
@@ -115,9 +115,9 @@ html {
 
 @media(max-width:1000px) {
     .info_text h3 {
-        font-size: 3rem;
+        font-size: 5rem;
     }
     .info_text p {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 }
